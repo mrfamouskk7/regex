@@ -35,7 +35,7 @@ def convertHtmlToCSV(filePath):
         ind+=1
         ind%=len(dict)
     df = pd.DataFrame(dict)
-    df.to_excel('./sample.xlsx')
+    df.to_csv('./sample.csv')
 
 
 def main():
