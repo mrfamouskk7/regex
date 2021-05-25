@@ -39,7 +39,7 @@ def convertHtmlToCSV(filePath):
 
 
 def main():
-    path=r"C:\Users\Kunal\Downloads\sample-example.html"
+    path=r"Enter_your_path_here"     # Example ==> "C:\Users\example\Downloads\sample-example.html"
     convertHtmlToCSV(path)
     
 if __name__ == '__main__':
